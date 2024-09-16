@@ -1,23 +1,17 @@
-.App {
-    text-align: center;
-}
-
-.App-logo {
+.app-name {
     height: 150px;
     pointer-events: none;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    border: thick lightsteelblue solid;
+    border: thick #f0f8ff solid;
     border-radius: 8px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 40px;
     background: aliceblue;
-    margin-bottom: 50px;
 }
 
-.my-lists {
+.my-header {
     pointer-events: none;
     text-align: center;
     font-weight: bold;
@@ -25,45 +19,38 @@
     padding: 20px;
 }
 
-.Auth-form-container {
+.start-container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background: lightsteelblue;
+    background: aliceblue;
 }
 
-.Auth-form {
+.start-panel {
     width: 420px;
     box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
     padding-top: 30px;
     padding-bottom: 20px;
     border-radius: 8px;
-    background-color: aliceblue;
+    background-color: white;
 }
 
-.Auth-form-content {
+.logo {
     padding-left: 12%;
     padding-right: 12%;
 }
 
-.log-button {
-    background: lightsteelblue !important;
+.start-button {
+    background: aliceblue !important;
     color: black !important;
     font-weight: bold !important;
-    border-color: steelblue !important;
-}
-.log-button:hover {
-    background: rgba(176, 196, 222, 0.73) !important;
+    border-color: cornflowerblue !important;
 }
 
-.Auth-form-title {
-    text-align: center;
-    margin-bottom: 1em;
-    font-size: 24px;
-    color: rgb(34, 34, 34);
-    font-weight: 800;
+.start-button:hover {
+    background: #d7ecff !important;
 }
 
 label {
@@ -102,18 +89,24 @@ input, label {
 }
 
 .save-button {
-    max-width: 120px;
+    min-width: 120px;
     float: right;
     margin-top: 5px !important;
+    margin-right: 5px !important;
+    margin-bottom: 5px !important;
 }
 
 .return-button {
     min-width: 120px;
     margin-top: 5px !important;
+    margin-left: 5px !important;
+    margin-bottom: 5px !important;
 }
 
-.background-color {
-    background: lightsteelblue;
+.tasks {
+    padding: 10px !important;
+    margin: 2px !important;
+    background-color: aliceblue;
 }
 
 ul {
@@ -136,7 +129,7 @@ ul {
     margin-left: 0.5rem;
 }
 
-.edit-button {
+.show-edit-button {
     margin: 3px !important;
     background-color: aliceblue !important;
     border-color: cornflowerblue !important;
@@ -145,7 +138,7 @@ ul {
     color: black !important;
 }
 
-.edit-button:hover {
+.show-edit-button:hover {
     background-color: #d4e6fc !important;
 }
 
@@ -164,5 +157,5 @@ ul {
 .create-list-button {
     min-width: 200px !important;
     margin-bottom: 5px !important;
-
+    margin-left: 5px !important;
 }
